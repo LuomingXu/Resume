@@ -77,28 +77,10 @@
 
 ### 想学的东西
 
-#### elastic
-
-    非常想学习elastic, 但由于暂时电脑性能不足, 无法完全测试自己的代码
-    暂时只写了一个elastic的spring服务, 可以导入整张表的数据, 或是根据
-    List导入, 之后提供了查询接口
-    对于kibana了解的不多, 有待以后加强学习
-    elastic的其他构件也有待学习
-
-#### TensorFlow
-
-    想学习, 但得等买个显卡才行, 手上的surface pro4实在吃不消
-    大概了解了下
-    amd的框架还不够成熟, 目前只有NVIDIA的才行
-
-#### K8s
-
-    目前只学了docker的知识, K8s的部署还不会, 等之后可以用上WSL
-    在自己电脑上试试
-
 #### 正则
 
+    处于蛮力试出自己要的正则的阶段
     是一定要学的东西...
     
 ### 联系
-- email: [xjy46566696@gmail.com](mailto:xjy46566696@gmail.com)
+- email: [me@luomingxu.cn](mailto:me@luomingxu.cn)
