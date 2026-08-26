@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -203,7 +204,7 @@
             padding-left: 0;
         }
 
-        .thoughts > ul > li {
+        .thoughts>ul>li {
             margin-bottom: 10px;
             padding-left: 18px;
             position: relative;
@@ -211,7 +212,7 @@
             font-size: 0.75em;
         }
 
-        .thoughts > ul > li::before {
+        .thoughts>ul>li::before {
             content: '◆';
             position: absolute;
             left: 0;
@@ -347,42 +348,59 @@
 
         /* Mobile */
         @media (max-width: 768px) {
-            body { padding: 15px; }
-            .container { padding: 20px; }
-            h1 { font-size: 1.6em; letter-spacing: 1px; }
-            .skills-list { grid-template-columns: 1fr; }
-            .contact-info { gap: 8px; }
+            body {
+                padding: 15px;
+            }
+
+            .container {
+                padding: 20px;
+            }
+
+            h1 {
+                font-size: 1.6em;
+                letter-spacing: 1px;
+            }
+
+            .skills-list {
+                grid-template-columns: 1fr;
+            }
+
+            .contact-info {
+                gap: 8px;
+            }
         }
 
         .download-btn {
-          display: inline-flex;
-          align-items: center;
-          gap: 8px;
-          padding: 10px 20px;
-          margin-bottom: 20px;
-          background-color: #059669;
-          color: #ffffff;
-          text-decoration: none;
-          font-weight: 500;
-          border-radius: 6px;
-          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-          transition: background-color 0.2s;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 10px 20px;
+            margin-bottom: 20px;
+            background-color: #059669;
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: 500;
+            border-radius: 6px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.2s;
         }
 
         .download-btn:hover {
-          background-color: #047857;
+            background-color: #047857;
         }
     </style>
 </head>
+
 <body>
     <!-- 下载原版 PDF 的按钮 -->
     <a href="./assets/234.pdf" download="document.pdf" class="download-btn">
-      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
-        <polyline points="7 10 12 15 17 10"></polyline>
-        <line x1="12" y1="15" x2="12" y2="3"></line>
-      </svg>
-      下载简历 PDF
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+            <polyline points="7 10 12 15 17 10"></polyline>
+            <line x1="12" y1="15" x2="12" y2="3"></line>
+        </svg>
+        下载简历 PDF
     </a>
     <div class="container">
         <header>
@@ -400,7 +418,8 @@
                 </div>
                 <div class="contact-item">
                     <span class="contact-icon">◈</span>
-                    <a href="https://resume.luomingxu.cn" target="_blank" rel="noopener noreferrer">resume.luomingxu.cn</a>
+                    <a href="https://resume.luomingxu.cn" target="_blank"
+                        rel="noopener noreferrer">resume.luomingxu.cn</a>
                 </div>
                 <div class="contact-item">
                     <span class="contact-icon">◎</span>
@@ -409,10 +428,12 @@
                 <div class="contact-item">
                     <span class="contact-icon">
                         <svg viewBox="0 0 24 24" aria-hidden="true">
-                            <path fill="currentColor" d="M12 .5C5.37.5 0 5.87 0 12.5c0 5.3 3.44 9.8 8.21 11.39.6.11.82-.26.82-.58v-2.04c-3.34.73-4.04-1.61-4.04-1.61-.55-1.39-1.33-1.76-1.33-1.76-1.09-.75.08-.74.08-.74 1.2.09 1.83 1.24 1.83 1.24 1.07 1.83 2.81 1.3 3.5.99.11-.78.42-1.3.76-1.6-2.67-.3-5.47-1.34-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.12-.3-.54-1.52.12-3.17 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.28-1.55 3.29-1.23 3.29-1.23.66 1.65.24 2.87.12 3.17.77.84 1.23 1.91 1.23 3.22 0 4.6-2.8 5.62-5.48 5.92.43.37.81 1.1.81 2.22v3.29c0 .32.22.7.83.58A12 12 0 0 0 24 12.5C24 5.87 18.63.5 12 .5z"/>
+                            <path fill="currentColor"
+                                d="M12 .5C5.37.5 0 5.87 0 12.5c0 5.3 3.44 9.8 8.21 11.39.6.11.82-.26.82-.58v-2.04c-3.34.73-4.04-1.61-4.04-1.61-.55-1.39-1.33-1.76-1.33-1.76-1.09-.75.08-.74.08-.74 1.2.09 1.83 1.24 1.83 1.24 1.07 1.83 2.81 1.3 3.5.99.11-.78.42-1.3.76-1.6-2.67-.3-5.47-1.34-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.12-.3-.54-1.52.12-3.17 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.28-1.55 3.29-1.23 3.29-1.23.66 1.65.24 2.87.12 3.17.77.84 1.23 1.91 1.23 3.22 0 4.6-2.8 5.62-5.48 5.92.43.37.81 1.1.81 2.22v3.29c0 .32.22.7.83.58A12 12 0 0 0 24 12.5C24 5.87 18.63.5 12 .5z" />
                         </svg>
                     </span>
-                    <a href="https://github.com/luomingxu" target="_blank" rel="noopener noreferrer">github.com/luomingxu</a>
+                    <a href="https://github.com/luomingxu" target="_blank"
+                        rel="noopener noreferrer">github.com/luomingxu</a>
                 </div>
                 <div class="contact-item">
                     <span class="contact-icon">◐</span>
@@ -454,7 +475,8 @@
                     <li>各种对目前只会吐字的LLm模型的缝补(mcp, skill, agent, claw, etc.), 后续肯定还有有新东西出来, 但本质上还是prompt engineering
                         <ul>
                             <li>目前我们确实只是在给一个聪明的打字机打补丁，但这些补丁，倒逼着我们人类把自己变得更加严谨（规范文档），并从搬砖工进化成了监工（Code Review）。</li>
-                            <li><a href="https://www.bilibili.com/video/BV1ojfDBSEPv/" target="_blank" rel="noopener noreferrer">BV1ojfDBSEPv</a></li>
+                            <li><a href="https://www.bilibili.com/video/BV1ojfDBSEPv/" target="_blank"
+                                    rel="noopener noreferrer">BV1ojfDBSEPv</a></li>
                             <li>所以更重要的是学习的能力, 紧跟步伐</li>
                         </ul>
                     </li>
@@ -469,7 +491,9 @@
                     <li>提示词注入? 是不是就是一种蒸馏? 以前是模型蒸馏, 现在通过claw来从pc蒸馏你的数据, 那广义来讲爬虫也是一种蒸馏, 那再广义点, 黑客也是蒸馏</li>
                     <li>对程序员的意义
                         <ul>
-                            <li><strong>倒逼需求与文档的规范化(核心价值)</strong>： 个人认为这是 AI 带来的一大重要意义。由于目前的 AI 完全不具备人类的隐性理解能力与业务直觉，它高度依赖结构化的输入。这意味着，程序员或产品经理提供的文档(即广义上的 prompt)越严谨、越规范，AI 交付的产物才越具备可靠性。</li>
+                            <li><strong>倒逼需求与文档的规范化(核心价值)</strong>： 个人认为这是 AI 带来的一大重要意义。由于目前的 AI
+                                完全不具备人类的隐性理解能力与业务直觉，它高度依赖结构化的输入。这意味着，程序员或产品经理提供的文档(即广义上的 prompt)越严谨、越规范，AI 交付的产物才越具备可靠性。
+                            </li>
                             <li><strong>开放</strong>. mcp, 其实就是api, 但是他的意义在于原来有些服务根本不提供api, 但是为了ai, 乘上这股风, 开放了。
                                 <ul>
                                     <li>微信bot, 企业微信cli</li>
@@ -478,7 +502,8 @@
                                     <li>🍎 apple竟然开放了第三方驱动, tiny crop开发的eGPU(amd nvidia)可以在apple silicon上运行</li>
                                 </ul>
                             </li>
-                            <li><strong>Code Review; 架构</strong>. 很多重复性的工作ai可以生成, 但是并不完全可靠, 锻炼了程序员review的能力. ai真的很喜欢对一些小事拉一大坨代码</li>
+                            <li><strong>Code Review; 架构</strong>. 很多重复性的工作ai可以生成, 但是并不完全可靠, 锻炼了程序员review的能力.
+                                ai真的很喜欢对一些小事拉一大坨代码</li>
                         </ul>
                     </li>
                 </ul>
@@ -503,9 +528,12 @@
                     <ul>
                         <li><strong>后端业务开发</strong>：主导/参与基于 Spring 框架的企业级后端项目开发，负责核心业务逻辑的设计与实现，保障系统的稳定运行。</li>
                         <li><strong>权限与认证系统</strong>：深度集成 Spring Security OAuth2，设计并实现系统的统一认证与鉴权模块，保障接口安全。</li>
-                        <li><strong>文件存储方案</strong>：负责 S3 对象存储服务（或 MinIO 等）的独立部署，并基于 Spring 框架封装底层 API，实现文件的高效上传、下载与传输管理。</li>
-                        <li><strong>报表自动化与导出</strong>：主导多个复杂业务报表的开发工作，使用 Java（如 EasyExcel/POI 等）实现海量数据的查询汇总与 Excel 文件自动化生成，提升业务侧数据分析效率。</li>
-                        <li><strong>CI/CD与自动化部署</strong>：独立负责项目的持续集成与持续交付（CI/CD）流程搭建，优化项目构建效率；全权负责预生产环境（Pre-production）的服务器规划、Docker 容器化部署及整体环境搭建。</li>
+                        <li><strong>文件存储方案</strong>：负责 S3 对象存储服务（或 MinIO 等）的独立部署，并基于 Spring 框架封装底层
+                            API，实现文件的高效上传、下载与传输管理。</li>
+                        <li><strong>报表自动化与导出</strong>：主导多个复杂业务报表的开发工作，使用 Java（如 EasyExcel/POI 等）实现海量数据的查询汇总与 Excel
+                            文件自动化生成，提升业务侧数据分析效率。</li>
+                        <li><strong>CI/CD与自动化部署</strong>：独立负责项目的持续集成与持续交付（CI/CD）流程搭建，优化项目构建效率；全权负责预生产环境（Pre-production）的服务器规划、Docker
+                            容器化部署及整体环境搭建。</li>
                         <li><strong>服务器运维与网关配置</strong>：负责 Nginx 的环境搭建、路由转发、反向代理及 SSL 证书配置，优化系统网络层面的请求转发能力。</li>
                     </ul>
                 </div>
@@ -513,4 +541,5 @@
         </section>
     </div>
 </body>
+
 </html>
